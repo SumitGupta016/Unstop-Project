@@ -1,0 +1,18 @@
+.seats-container {
+  width: 420px;
+  margin: 0 auto;
+}
+
+.seat {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  background-color: #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.seat.selected {
+  background-color: #f00;
+}
